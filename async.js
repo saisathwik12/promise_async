@@ -1,6 +1,6 @@
 async function fetchData() {
     try {
-      const response = await fetch('');
+      const response = await fetch('https://fakestoreapi.com/products');
       const data = await response.json();
       console.log('Data:', data);
       return data;
